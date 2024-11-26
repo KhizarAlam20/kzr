@@ -1,0 +1,32 @@
+/* src/NavBar.css */
+
+.navbar {
+    width: 1918px;
+    height: 75px;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 24px; /* If you want to include outer margin */
+    box-shadow: 0 2px 5px rgb(246, 32, 8);
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 20px; /* Adjust for spacing */
+    font-size: 16px;
+  }
+  
+  .nav-item:hover {
+    background-color: #3a3f47;
+    border-radius: 5px;
+  }
+  
